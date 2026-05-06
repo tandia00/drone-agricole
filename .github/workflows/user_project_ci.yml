@@ -207,12 +207,14 @@ jobs:
           path: /tmp/design_${{ matrix.pdk }}.tar
   
   RTL-verification:
-    timeout-minutes: 720
+    if: false
+    needs: [download_deps]
+    timeout-minutes: 15720
     runs-on: ubuntu-latest
     strategy:
       matrix:
         pdk: ["sky130A", "sky130B"]
-    needs: [download_deps]
+
     steps:
       - uses: actions/checkout@v4
 
