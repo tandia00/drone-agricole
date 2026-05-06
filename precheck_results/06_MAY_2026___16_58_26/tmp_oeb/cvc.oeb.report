@@ -1,0 +1,147 @@
+ gpio/user/analog |   in   |   out  | analog |  oeb min/sim/max  | configuration
+   0 /  0 /       |        |      2 |        | vssd*/     /vccd* | FIXED_STD_INPUT_NOPULL 2 warnings/errors
+   1 /  1 /       |        |      2 |        | vssd*/     /vccd* | FIXED_STD_INPUT_NOPULL 2 warnings/errors
+   2 /  2 /       |        |      2 |        | vssd*/     /vccd* | FIXED_STD_INPUT_NOPULL 2 warnings/errors
+   3 /  3 /       |        |      2 |        | vssd*/     /vccd* | FIXED_STD_INPUT_PULLUP 2 warnings/errors
+   4 /  4 /       |        |      2 |        | vssd*/     /vccd* | FIXED_STD_INPUT_NOPULL 2 warnings/errors
+   5 /  5 /       |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+   6 /  6 /       |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+   7 /  7 /   0   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+   8 /  8 /   1   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+   9 /  9 /   2   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  10 / 10 /   3   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  11 / 11 /   4   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  12 / 12 /   5   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  13 / 13 /   6   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  14 / 14 /   7   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  15 / 15 /   8   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  16 / 16 /   9   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  17 / 17 /  10   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  18 / 18 /  11   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  19 / 19 /  12   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  20 / 20 /  13   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  21 / 21 /  14   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  22 / 22 /  15   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  23 / 23 /  16   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  24 / 24 /  17   |        |        |        |      /     /      | USER_STD_INPUT_PULLDOWN 3 warnings/errors
+  25 / 25 /  18   |        |        |        |      /     /      | USER_STD_OUTPUT 2 warnings/errors
+  26 / 26 /  19   |        |        |        |      /     /      | USER_STD_OUTPUT 2 warnings/errors
+  27 / 27 /  20   |        |        |        |      /     /      | USER_STD_OUTPUT 2 warnings/errors
+  28 / 28 /  21   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  29 / 29 /  22   |        |        |        |      /     /      | USER_STD_INPUT_NOPULL 3 warnings/errors
+  30 / 30 /  23   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  31 / 31 /  24   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  32 / 32 /  25   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  33 / 33 /  26   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  34 / 34 /  27   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  35 / 35 /  28   |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  36 / 36 /       |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+  37 / 37 /       |        |      2 |        | vssd*/     /vccd* | USER_STD_INPUT_NOPULL 3 warnings/errors
+
+*** Detected the following warnings and/or errors: ***
+GPIO  0: Warning: user output connection to fixed input gpio - firmware override required
+GPIO  0: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  1: Warning: user output connection to fixed input gpio - firmware override required
+GPIO  1: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  2: Warning: user output connection to fixed input gpio - firmware override required
+GPIO  2: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  3: Warning: user output connection to fixed input gpio - firmware override required
+GPIO  3: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  4: Warning: user output connection to fixed input gpio - firmware override required
+GPIO  4: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  5: Warning: missing user input connection
+GPIO  5: Warning: user output connection to input gpio ignored
+GPIO  5: Warning: user oeb connection to input gpio ignored
+GPIO  6: Warning: missing user input connection
+GPIO  6: Warning: user output connection to input gpio ignored
+GPIO  6: Warning: user oeb connection to input gpio ignored
+GPIO  7: Warning: missing user input connection
+GPIO  7: Warning: user output connection to input gpio ignored
+GPIO  7: Warning: user oeb connection to input gpio ignored
+GPIO  8: Warning: missing user input connection
+GPIO  8: ERROR: user mode requires output connection
+GPIO  8: ERROR: user mode requires oeb connection
+GPIO  9: Warning: missing user input connection
+GPIO  9: ERROR: user mode requires output connection
+GPIO  9: ERROR: user mode requires oeb connection
+GPIO 10: Warning: missing user input connection
+GPIO 10: ERROR: user mode requires output connection
+GPIO 10: ERROR: user mode requires oeb connection
+GPIO 11: Warning: missing user input connection
+GPIO 11: ERROR: user mode requires output connection
+GPIO 11: ERROR: user mode requires oeb connection
+GPIO 12: Warning: missing user input connection
+GPIO 12: ERROR: user mode requires output connection
+GPIO 12: ERROR: user mode requires oeb connection
+GPIO 13: Warning: missing user input connection
+GPIO 13: ERROR: user mode requires output connection
+GPIO 13: ERROR: user mode requires oeb connection
+GPIO 14: Warning: missing user input connection
+GPIO 14: ERROR: user mode requires output connection
+GPIO 14: ERROR: user mode requires oeb connection
+GPIO 15: Warning: missing user input connection
+GPIO 15: ERROR: user mode requires output connection
+GPIO 15: ERROR: user mode requires oeb connection
+GPIO 16: Warning: missing user input connection
+GPIO 16: ERROR: user mode requires output connection
+GPIO 16: ERROR: user mode requires oeb connection
+GPIO 17: Warning: missing user input connection
+GPIO 17: ERROR: user mode requires output connection
+GPIO 17: ERROR: user mode requires oeb connection
+GPIO 18: Warning: missing user input connection
+GPIO 18: ERROR: user mode requires output connection
+GPIO 18: ERROR: user mode requires oeb connection
+GPIO 19: Warning: missing user input connection
+GPIO 19: ERROR: user mode requires output connection
+GPIO 19: ERROR: user mode requires oeb connection
+GPIO 20: Warning: missing user input connection
+GPIO 20: ERROR: user mode requires output connection
+GPIO 20: ERROR: user mode requires oeb connection
+GPIO 21: Warning: missing user input connection
+GPIO 21: ERROR: user mode requires output connection
+GPIO 21: ERROR: user mode requires oeb connection
+GPIO 22: Warning: missing user input connection
+GPIO 22: ERROR: user mode requires output connection
+GPIO 22: ERROR: user mode requires oeb connection
+GPIO 23: Warning: missing user input connection
+GPIO 23: ERROR: user mode requires output connection
+GPIO 23: ERROR: user mode requires oeb connection
+GPIO 24: Warning: missing user input connection
+GPIO 24: ERROR: user pulldown mode requires low output
+GPIO 24: ERROR: user pulldown mode requires low oeb
+GPIO 25: ERROR: missing user output connection for output gpio
+GPIO 25: ERROR: missing user oeb for output gpio
+GPIO 26: ERROR: missing user output connection for output gpio
+GPIO 26: ERROR: missing user oeb for output gpio
+GPIO 27: ERROR: missing user output connection for output gpio
+GPIO 27: ERROR: missing user oeb for output gpio
+GPIO 28: Warning: missing user input connection
+GPIO 28: ERROR: user mode requires output connection
+GPIO 28: ERROR: user mode requires oeb connection
+GPIO 29: Warning: missing user input connection
+GPIO 29: ERROR: user mode requires output connection
+GPIO 29: ERROR: user mode requires oeb connection
+GPIO 30: Warning: missing user input connection
+GPIO 30: Warning: user output connection to input gpio ignored
+GPIO 30: Warning: user oeb connection to input gpio ignored
+GPIO 31: Warning: missing user input connection
+GPIO 31: Warning: user output connection to input gpio ignored
+GPIO 31: Warning: user oeb connection to input gpio ignored
+GPIO 32: Warning: missing user input connection
+GPIO 32: Warning: user output connection to input gpio ignored
+GPIO 32: Warning: user oeb connection to input gpio ignored
+GPIO 33: Warning: missing user input connection
+GPIO 33: Warning: user output connection to input gpio ignored
+GPIO 33: Warning: user oeb connection to input gpio ignored
+GPIO 34: Warning: missing user input connection
+GPIO 34: Warning: user output connection to input gpio ignored
+GPIO 34: Warning: user oeb connection to input gpio ignored
+GPIO 35: Warning: missing user input connection
+GPIO 35: Warning: user output connection to input gpio ignored
+GPIO 35: Warning: user oeb connection to input gpio ignored
+GPIO 36: Warning: missing user input connection
+GPIO 36: Warning: user output connection to input gpio ignored
+GPIO 36: Warning: user oeb connection to input gpio ignored
+GPIO 37: Warning: missing user input connection
+GPIO 37: Warning: user output connection to input gpio ignored
+GPIO 37: Warning: user oeb connection to input gpio ignored
