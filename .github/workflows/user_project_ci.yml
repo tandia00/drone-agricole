@@ -182,7 +182,7 @@ jobs:
             echo "CURRENT_DESIGN=${word}" >> $GITHUB_ENV
             make $word
           done
-          rm -rf openlane/user_proj_example/runs openlane/user_project_wrapper/runs pdk openlane_src caravel mgmt_core_wrapper timing-scripts mpw_precheck
+          rm -rf openlane/drone_core/runs openlane/user_project_wrapper/runs pdk openlane_src caravel mgmt_core_wrapper timing-scripts mpw_precheck
 
       - name: Create reproducible
         if: failure()
