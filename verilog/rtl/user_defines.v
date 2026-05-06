@@ -79,8 +79,8 @@
 `define USER_CONFIG_GPIO_22_INIT `GPIO_MODE_USER_STD_INPUT_NOPULL
 `define USER_CONFIG_GPIO_23_INIT `GPIO_MODE_USER_STD_INPUT_NOPULL
 
-// GPIO 24 : Bouton d'activation systeme (entree avec pull-down par securite)
-`define USER_CONFIG_GPIO_24_INIT `GPIO_MODE_USER_STD_INPUT_PULLDOWN
+// GPIO 24 : Bouton d'activation systeme (entree haute-impedance)
+`define USER_CONFIG_GPIO_24_INIT `GPIO_MODE_USER_STD_INPUT_NOPULL
 
 // GPIO 25 : Sortie alerte cuve vide (LED/Buzzer/Telemetrie)
 `define USER_CONFIG_GPIO_25_INIT `GPIO_MODE_USER_STD_OUTPUT

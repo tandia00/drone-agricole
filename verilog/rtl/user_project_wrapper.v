@@ -88,7 +88,7 @@ module user_project_wrapper (
     assign io_out[24:0]  = 25'b0;
 
     // Configuration de la direction des broches (0 = Sortie, 1 = Entrée)
-    // Seules les broches 25, 26 et 27 sont des sorties !
+    // Sorties: GPIO 25, 26, 27
     assign io_oeb[25] = 1'b0;
     assign io_oeb[26] = 1'b0;
     assign io_oeb[27] = 1'b0;
