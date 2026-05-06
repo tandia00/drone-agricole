@@ -1,0 +1,9 @@
+BEGIN: Wed May  6 17:18:00 2026
+Creating /tmp/tmpbiy4icq7/repo/precheck_results/06_MAY_2026___16_58_26/tmp/verilog.cells from the following files...
+	/tmp/tmpbiy4icq7/repo/verilog/gl/drone_core.v
+	/tmp/tmpbiy4icq7/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmpbiy4icq7/repo/gds/user_project_wrapper.gds
+	to /tmp/tmpbiy4icq7/repo/precheck_results/06_MAY_2026___16_58_26/tmp/layout.txt
+Hierarchy check for user_project_wrapper passed.
+END: Wed May  6 17:18:07 2026
+Runtime: 0:00:07 (hh:mm:ss)
