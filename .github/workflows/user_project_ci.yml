@@ -177,7 +177,8 @@ jobs:
 
       - name: Install volare
         run: |
-          pip3 install volare
+          mkdir -p $GITHUB_WORKSPACE/venv/bin
+          pip3 install --target=$GITHUB_WORKSPACE/venv volare
 
       - name: Harden using Openlane
         run: |
